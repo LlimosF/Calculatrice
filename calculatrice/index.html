@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculatrice</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="media/calculatrice.png" />
+</head>
+<body>
+  <div class="calculator">
+    <div class="calc">
+      <input type="text" id="display" disabled>
+      <button onclick="clearDisplay()" class="clear">C</button>
+      <button onclick="appendToDisplay('7')" class="seven">7</button>
+      <button onclick="appendToDisplay('8')" class="eight">8</button>
+      <button onclick="appendToDisplay('9')" class="nice">9</button>
+      <button onclick="appendToDisplay('+')" class="plus">+</button>
+      <button onclick="appendToDisplay('4')" class="four">4</button>
+      <button onclick="appendToDisplay('5')" class="five">5</button>
+      <button onclick="appendToDisplay('6')" class="six">6</button>
+      <button onclick="appendToDisplay('-')" class="less">-</button>
+      <button onclick="appendToDisplay('1')" class="one">1</button>
+      <button onclick="appendToDisplay('2')" class="two">2</button>
+      <button onclick="appendToDisplay('3')" class="three">3</button>
+      <button onclick="appendToDisplay('*')" class="multiply">*</button>
+      <button onclick="appendToDisplay('0')" class="zero">0</button>
+      <button onclick="appendToDisplay('.')" class="point">,</button>
+      <button onclick="backspace()" class="delete">D</button>
+      <button onclick="calculateResult()" class="equal">=</button>
+      <button onclick="appendToDisplay('/')" class="divide">/</button>
+    </div>
+  </div>
+<script src="script.js"></script>
+</body>
+</html>
